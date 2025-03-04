@@ -2,7 +2,9 @@
 
 A real-time multiplayer Scrabble-like word game built with React, TypeScript, and Supabase.
 
-![Scrabble Game Screenshot](https://i.imgur.com/XYZ123.png) <!-- Replace with an actual screenshot of your game -->
+<img width="1245" alt="Game" src="https://github.com/user-attachments/assets/b72cbc9e-483f-4d9f-8d92-934f116c19fa" />
+<img width="1354" alt="Login screen" src="https://github.com/user-attachments/assets/5adcb7a4-c00c-43a4-851c-873f85d6a68f" />
+
 
 ## Features
 
