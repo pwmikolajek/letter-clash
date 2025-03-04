@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.grid-cols-15 {
+  grid-template-columns: repeat(15, minmax(0, 1fr));
+}
+
+.bg-wood {
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+@keyframes pulse-slow {
+  0%, 100% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 0.8;
+  }
+}
+
+@keyframes pulse-border {
+  0%, 100% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.animate-pulse-slow {
+  animation: pulse-slow 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.animate-pulse-border {
+  animation: pulse-border 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.players-list-container.my-turn {
+  box-shadow: 0 0 25px rgba(34, 197, 94, 0.5);
+}
+
+/* Custom elastic easing for logo animation */
+.ease-elastic {
+  transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+/* Longer duration for smoother animation */
+.duration-600 {
+  transition-duration: 600ms;
+}
+
+/* Custom width/height classes for 95% of original size */
+.w-7\.5 {
+  width: 1.9rem;
+}
+
+.h-7\.5 {
+  height: 1.9rem;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 1280px) {
+  .w-\[1200px\] {
+    width: 100%;
+    max-width: 1200px;
+  }
+}
